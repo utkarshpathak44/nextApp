@@ -1,9 +1,8 @@
 const Footer = () => {
   return (
     <footer className="w-full bg-black text-stone-400 py-5 px-60">
-      <div className="max-w-7xl ">
+      <div className="">
         <div className="flex flex-wrap justify-between items-center gap-6">
-          {/* <div className="text-lg font-semibold text-stone-200"></div> */}
 
           <div className="flex flex-wrap gap-6 text-sm">
             <a href="#" className="hover:text-stone-100">
@@ -33,7 +32,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-6 text-center text-xs text-stone-500">
+        <div className="  text-xs text-stone-500">
           © {new Date().getFullYear()} MyWebsite. All rights reserved.
         </div>
       </div>
