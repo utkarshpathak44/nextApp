@@ -67,7 +67,7 @@ const options = {
   },
 };
 
-export default function RadarChart({ width = 200, height = 200 }) {
+export default function RadarChart({ width = 350, height = 350 }) {
   return (
     <div className="w-full" style={{ width, height }}>
       <Radar data={data} options={options} />
